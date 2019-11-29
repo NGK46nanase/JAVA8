@@ -31,3 +31,9 @@ Explain 'pseudoclassical inheritance'
 | \S |a single character that is not whitespace||
 | \t | a tab||
 | (x) | capturing paraentheses||
+
+|Flag|Meaning|
+|----|----|
+|g |matches across an entire string, rather than stopping at first match|
+|i |ignores case|
+|m |applies begin and end line special characters|
