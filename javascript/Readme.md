@@ -1,3 +1,5 @@
+Every function object is also created with a prototype property. Its value is an object with a constructor property
+whose value is the function.
 
 
 The Foo.prototype object by default gets a public, nonenumerable property called '.constructor', and this property
