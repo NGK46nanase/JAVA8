@@ -1,3 +1,6 @@
+
+
+#closures : functions are executed using the scope chain that was in effect when they were defined. __scope chain?__
  
  public method  ( of an object) : get their object context from _this_
 
