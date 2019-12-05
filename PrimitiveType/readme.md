@@ -41,3 +41,9 @@ when two values are combined with a binary operator, both operands are converted
  * Otherwise, if either of the operands is of type _float_, the other one will be converted to a _float_
  * Otherwise, if either of the operands is of type _long_, the other one will be converted to a _long_
  * Otherwise, both operands will be converted to an int
+
+
+If an interger addition overflows, then the result is the low-order bits of the mathematical sum as represented in some
+sufficiently large two's-complement format. If overflow occurs, then the sign of the result is not the same as the sign of the 
+mathematical sum of the two operand values.
+
