@@ -1,4 +1,12 @@
-
+| | Functional | Object-Oriented|
+|-----|----|----|
+|Unit of composition |Functions  | Objects (classes) |
+|Programming style | Declarartive| Imperative|
+|Data and behavior |Loosely coupled into pure, standalone functions funcitons | Tighttly coupled in classes with methods |
+|State management | Treats objects as immutable values | Favors mutation of objects via instnce methods |
+|Control flow | Functions and recursion | Loops and conditionals |
+|Thread safety| Enables concurrent programming  | Difficult to achive|
+|Encapsulation | Not needed because everthing is immutable | Needed to protect data integrity|
 
 #closures : functions are executed using the scope chain that was in effect when they were defined. __scope chain?__
  
