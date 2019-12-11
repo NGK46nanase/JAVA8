@@ -5,3 +5,8 @@
 Normally, you can use __extends__ with only a single class, but __extends__ can refer to multiple base interfaces when building a new 
 interface. 
 
+# Inner Class
+
+If you want to make an object of the inner class anywhere except from within a __non-static__ method of the outer clas, you must specify the type of that object as _OuterClassName.InnerClassName_ 
+
+
