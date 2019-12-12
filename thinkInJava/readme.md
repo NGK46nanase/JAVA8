@@ -10,3 +10,5 @@ interface.
 If you want to make an object of the inner class anywhere except from within a __non-static__ method of the outer clas, you must specify the type of that object as _OuterClassName.InnerClassName_ 
 
 
+Normal (non-inner) class cannot be made private or protectedl they may only be given __public__ or package access.
+
