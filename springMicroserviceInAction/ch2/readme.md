@@ -30,7 +30,15 @@ deliver a microservice.
 DevOp engineer: how the services are deployed and managed throughout no only production, but also all the nonproduction environments.
 __consistency__ __repeatability__
 
+# Guideline for identify and decomposing a business problem into microservice candidate:
 
+ 1 Describe the business problem, and listen to the nounss you're using to describe the problem
+ 
+ 2 Pay attention to the verbs
+ 
+ 3 Look for data cohesion : microservices should completely own their data
+ 
+ 
 
 
 
