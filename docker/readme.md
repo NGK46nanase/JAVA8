@@ -12,14 +12,14 @@ flags :
  --name [sample name]  : names the container . every container has a name, if you don't spcify one, Docker will randomly assign one for you
  
  
-'''
+```
 docker run --detach --name web ngix:latest
-'''
+```
 
-'''
+```
 docker run --interactive --tty --link web:web --name web_test busybox:1.29 /bin/sh
 wget -O - http://web:80/
-'''
+```
 
 
 
