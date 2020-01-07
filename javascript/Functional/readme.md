@@ -28,4 +28,16 @@ functional programming focuses on the operations performed-behavior
 |Thread safety|Enables concurrent programming | Difficult to achieve |
 |Encapsulation |Not needed because everything is immutable |Needed to protect data integrity |
  
+
+# Lenses aka functional references
+
+accessing  and immutably manipulating attributes of stateful data types.
+
+## copy-on-write strategy
+
+expresions : functions that produces a value 
+
+statements : functions that don't
+
+
  
