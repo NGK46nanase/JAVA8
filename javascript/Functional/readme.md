@@ -39,5 +39,14 @@ expresions : functions that produces a value
 
 statements : functions that don't
 
+In Javascript, every function is an instance of the Function type.
+
+higher-order functions : functions be passed in as function arguments and returned from other functions. 
+
+Javascript functions can behave as values, which implies that a function is nothing more than a yet-to-be-executed value defined
+immutably based on the imput provided to the function.
+
+
+
 
  
