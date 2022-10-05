@@ -1,13 +1,28 @@
+The *numeric types* are the integral types and the floating-point types.
+
+The *integral types* are *byte,short,int, and long*, whose values are 8-bit, 16-bit, 32-bit and 64-bit signed two's-complement integers.
+*char* are 16-bit unsigned integers representing UTF-16 code units.
+
+The *floating-point types* are float, whose values include the 32-bit IEEE 754 floating-point numbers, and *double* values include the 64-bit IEEE 754 floating-point numbers.
+
+The *boolean* type has exactly two values: true and false.
+
 | name | size | range | sample |
 | ----- | ----- | ----- | ----|
 | boolean | 1 bit |  |  false , true|
-| unsigned integers char | 16 bits = 2 Bytes| |  | 
-|byte | 8 bits = 1 Byte | |
-| short|  16 bits = 2 Bytes | |
-|int | 32 bits = 4 bytes | | |
-|long | 64 bits = 8 bytes | | |
+| unsigned integers char | 16 bits = 2 Bytes| \u0000 ~ \uffff ( 0 ~ 65535 ) |  | 
+|byte | 8 bits = 1 Byte |-128 ~ 127 |
+| short|  16 bits = 2 Bytes | -32768 ~ 32767 |
+|int | 32 bits = 4 bytes | -2,147,483,648 ~ 2,147,483,647  | |
+|long | 64 bits = 8 bytes | -923372036854775808 ~ 923372036854775807 | |
 | float|32 bits | | |
 |double|64 bits | | |
+
+A *literal* is the source code representation of a value of a primitice type, the *String* type, or the *null* type.
+
+An *integer* literal may be expressed in decimal (base 10), hexadecimal (base 16), octal (base 8), or binary (base 2). 
+
+An integer literal is of type *long* if it is suffixed with an ASCII letter L or l; otherwise it is of type int
 
 #The _char_ type
 the 16 bit _char_ type is insufficient to describe all Unicode characters.
