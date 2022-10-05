@@ -24,6 +24,8 @@ An *integer* literal may be expressed in decimal (base 10), hexadecimal (base 16
 
 An integer literal is of type *long* if it is suffixed with an ASCII letter L or l; otherwise it is of type int
 
+A floating-point literal is of type *float* if it is suffixed with an ASCII letter F or f; otherwise its type is *double* and it can optionally be suffixed with an ASCII letter D or d.
+
 #The _char_ type
 the 16 bit _char_ type is insufficient to describe all Unicode characters.
 
