@@ -87,3 +87,17 @@ The numeric value is preserved exactly:
 * long to byte, short, char, or int
 * float to byte, short, char, int or long
 * double to byte, short, char, int, long or float
+
+
+### Binary Numeric Promotion
+
+When an operator applies *binary numeric promotion* to a pair of operands, each of which must denote a value that is convertible to a 
+numeric type, the following rules apply, in order:
+1. If any operand is of a reference type, it is subjected to unboxing conversion.
+2. Widening primitive conversion is applied to convert either or both operands as specified by the following rules: 
+* if either operand is of type double, the other is converted to double
+* otherwise, if either operand is of type float, the other is converted to float
+* otherwise, if either operand is of type long, the other is coverted to long.
+* Otherwist, both operands are converted to type int.
+
+After the conversion(s), if any, value set conversion is then appied to each operand.
