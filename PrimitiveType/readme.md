@@ -64,3 +64,26 @@ If an interger addition overflows, then the result is the low-order bits of the 
 sufficiently large two's-complement format. If overflow occurs, then the sign of the result is not the same as the sign of the 
 mathematical sum of the two operand values.
 
+### Widening Primitive Conversion
+
+* byte to short, int, long, float, or double
+* short to int, long, float, or double
+* char to int, long, float, or double
+* int to long, float, or double
+* long to float or double
+* float to double
+
+The numeric value is preserved exactly:
+* from an integral type to another integral type
+* from byte, short, or char to a floating point type
+* from int to double
+* from float to double in a strcitfp expression
+
+### Narrowing Primitive Conversion
+
+* short to byte or char
+* char to byte or short
+* int to byte, short or char
+* long to byte, short, char, or int
+* float to byte, short, char, int or long
+* double to byte, short, char, int, long or float
