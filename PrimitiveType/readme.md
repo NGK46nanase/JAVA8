@@ -101,3 +101,11 @@ numeric type, the following rules apply, in order:
 * Otherwist, both operands are converted to type int.
 
 After the conversion(s), if any, value set conversion is then appied to each operand.
+
+### 15.18.2 Additive Operators ( + and - ) for Numeric Types
+
+The type of an additive expression on numeric operands is the promoted type of ite operands.
+If this promoted type is int or long, then integer arithmetic is performed.
+If this promoted type is float or double, then the floating-point arithmetic is performed.
+
+Integer addition is associative when the operands are all of the same type.
