@@ -12,3 +12,7 @@ The **path length** of a tree T is the sum of the depths of all positions in T. 
 Define the **internal path length**, I(T), of a tree T to be the sum of the depths of all the internal positions in T. Likewise, define the external path
 length, E(T), of a tree T to be the sum of the depths of all the external positions in T. Show that if T is a proper binary tree with n positions, then 
 E(T) = I(T) + n -1.
+
+## 4
+Let T be a (not necessarily proper) binary tree with n nodes, and let D be the sum of the depths of all the external nodes of T. show that if T has the minimun number of external nodes possible, then D is O(n) and if T has the maximum number of external nodes possible, then D is O(nlogn).
+
