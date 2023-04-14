@@ -36,6 +36,9 @@ integers to display their raw value if needed.
 
 ## Reversing a String by Word or by Character
 
+
+# Pattern Matching with Regular Expressions
+
 Q: You wish to reverse a string, a character at a time or a word at a time
 
 A: You can reverse a string by character easily, using a `StringBuilder`. There are several ways to
