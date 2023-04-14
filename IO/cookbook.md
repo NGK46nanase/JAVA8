@@ -50,4 +50,38 @@ can't handle tabs.
 
 A: 
 
+## Controlling Case
+
+Q: You need to either convert strings to uppercase or lowercase or compare settings without regard for case.
+
+A: The `String` class has a number of methods for dealing with documents in a particular case `toUpperCase()`
+and `toLowerCase()` each return a new string that is a copy of the current string but converted, as the name 
+implies. Each can be called either with no arguments or with a `Locale` argument specifying the conversion rule.
+
+## Entering Nonprintable Characters
+
+Q: You need to put nonprintable characters into strings
+
+A: Use the backslash character and one of the Java string escapes.
+
+## Trimming Blanks from the End of a String
+
+Q: You need to work on a string without regard for extra leading or trailing spaces a user may have typed
+
+A: use the `String` class `strip()` or `trim()` methods.
+
+## Creating a Message with I18N Resources
+
+Q: You want your program to take sensitivity training so that it can communicate well internationally
+
+A
+
+## Using a Particular Locale
+
+Q: You want to use a locale other than the default in a particular operation
+
+A: Obtain a `Locale` by using a predefined instance or the `Locale` constructor.
+Optionally make it globla to your application by using `Local.setDefault(newLocale)`
+
+
 
